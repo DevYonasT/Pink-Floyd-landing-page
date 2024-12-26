@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pink Floyd Fan Page</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link
+      rel="shortcut icon"
+      href="Images/Pink Floyed LOGO.jpg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+      integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <img src="Images/Pink logo 1.jpg" alt="Logo image" />
+        </div>
+        <div class="main-menu">
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#intro">Discover</a>
+            </li>
+            <li>
+              <a href="#members">Band Member</a>
+            </li>
+            <li>
+              <a href="#albums">Albums</a>
+            </li>
+            <li>
+              <a href="#faqs">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Hamburger menu -->
+        <button class="hamburger-button">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </button>
+        <div class="mobile-menu">
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#intro">Discover</a>
+            </li>
+            <li>
+              <a href="#members">Band Member</a>
+            </li>
+            <li>
+              <a href="#albums">Albums</a>
+            </li>
+            <li>
+              <a href="#faqs">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero" id="home">
+      <div class="hero-container">
+        <div class="hero-left">
+          <h1 class="hero-title">Step into <span>Pink Floyd's</span> World</h1>
+          <p class="hero-description">
+            A journey through timeless music, thought-provoking lyrics, and
+            mesmerizing artistry. Immerse yourself in the soundscapes that
+            redefined rock and captured the spirit of generations.
+          </p>
+          <div class="music-icons">
+            <a
+              href="https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9"
+              target="_blank"
+              class="btn hero-btn"
+              aria-label="Spotify"
+            >
+              <i class="fab fa-spotify"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCYdeIlnRoxWrJnztKL2NAaA"
+              target="_blank"
+              class="btn hero-btn"
+              aria-label="YouTube"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a
+              href="https://music.apple.com/us/artist/pink-floyd/487143"
+              target="_blank"
+              class="btn hero-btn"
+              aria-label="Apple Music"
+            >
+              <i class="fab fa-apple"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <img
+            src="Images/Pink Floyed LOGO.jpg"
+            alt="Pink Floyd Logo"
+            class="hero-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <div id="back-to-top" onclick="scrollToTop()">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <section class="video" id="intro">
+      <!-- Video Content -->
+      <div class="video-content">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/WmC6dVt4MJc?si=jSz8VbZTu8p_e9xA"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <!-- Text Content -->
+      <div class="video-text">
+        <h2>Discover <span>Pink Floyd</span> Music</h2>
+        <p>
+          Pink Floyd's journey through soundscapes redefined the boundaries of
+          music. Whether it's the haunting echoes or the raw emotion, their
+          music resonates with the soul.
+        </p>
+        <button>
+          <a
+            href="https://medium.com/@vitor.bastos/pink-floyd-history-cfba666ca436"
+            >Learn More</a
+          >
+        </button>
+      </div>
+    </section>
+
+    <!-- Band Section -->
+    <section class="band-section" id="members">
+      <h1>Meet the Band Members of Pink Floyd</h1>
+      <br />
+      <br />
+
+      <div class="bandmem">
+        <p>
+          Get to know the visionaries behind the music! <br />
+          We shine a spotlight on the members of Pink Floyd—their stories,
+          talents, and contributions that brought their legendary sound to life.
+          <br />
+          From the creative genius of songwriting to the mastery of instruments,
+          discover how each member shaped the band's journey into music history.
+        </p>
+      </div>
+      <br />
+      <div class="card-container">
+        <div class="card101">
+          <div class="card-image">
+            <img src="Images/David Gilmour.jpg" alt="David Gilmour" />
+          </div>
+          <div class="card-content">
+            <h2>David Gilmour</h2>
+            <p>
+              David Gilmour is a legendary guitarist and vocalist of Pink Floyd.
+              He joined the band in 1968 and became a cornerstone of its iconic
+              sound.
+            </p>
+            <button class="read-more">
+              <a
+                href="https://www.davidgilmour.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Read More</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="card101">
+          <div class="card-image">
+            <img src="Images/Roger Waters.jpg" alt="Roger Waters" />
+          </div>
+          <div class="card-content">
+            <h2>Roger Waters</h2>
+            <p>
+              Roger Waters is the bassist and main lyricist of Pink Floyd. He is
+              known for his conceptual brilliance and shaping the band's
+              identity.
+            </p>
+            <button class="read-more">
+              <a
+                href="https://rogerwaters.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Read More</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="card101">
+          <div class="card-image">
+            <img src="Images/Richard Wright.jpg" alt="Richard Wright" />
+          </div>
+          <div class="card-content">
+            <h2>Richard Wright</h2>
+            <p>
+              Richard Wright was a talented keyboardist and composer,
+              contributing to Pink Floyd's unique soundscapes and compositions.
+            </p>
+            <button class="read-more">
+              <a
+                href="https://en.wikipedia.org/wiki/Richard_Wright_(musician)"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Read More</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="card101">
+          <div class="card-image">
+            <img src="Images/Syd Barrett.jpg" alt="Syd Barrett" />
+          </div>
+          <div class="card-content">
+            <h2>Syd Barrett</h2>
+            <p>
+              Syd Barrett was the founding member, guitarist, and songwriter of
+              Pink Floyd, known for his creativity and experimental style.
+            </p>
+            <button class="read-more">
+              <a
+                href="https://en.wikipedia.org/wiki/Syd_Barrett"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Read More</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="card101">
+          <div class="card-image">
+            <img src="Images/Nick Mason.jpg" alt="Nick Mason" />
+          </div>
+          <div class="card-content">
+            <h2>Nick Mason</h2>
+            <p>
+              Nick Mason is the drummer and a founding member of Pink Floyd. His
+              unique drumming style and contributions have been integral to the
+              band's iconic sound throughout its history.
+            </p>
+            <button class="read-more">
+              <a
+                href="https://www.thinkfloyd.com/nick-mason/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Read More</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="album-section" id="albums">
+      <h2>Explore Iconic <span>Albums</span></h2>
+      <div class="album-cards">
+        <!-- Card 1 -->
+        <div class="album-card">
+          <img src="./Images/The Wall album cover.jpg" alt="The Wall" />
+          <div class="album-info">
+            <div class="album-card">
+              <iframe
+                style="border-radius: 12px"
+                src="https://open.spotify.com/embed/album/5Dbax7G8SWrP9xyzkOvy2F?utm_source=generator"
+                width="100%"
+                height="152"
+                frameborder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="album-card">
+          <img
+            src="./Images/Dark Side of the moon albim cover.jpg"
+            alt="Dark Side of the Moon"
+          />
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/album/4LH4d3cOWNNsVw41Gqt2kv?utm_source=generator"
+            width="100%"
+            height="152"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
+        <!-- Card 3 -->
+        <div class="album-card">
+          <img
+            src="./Images/Wish You Were Here Album cover.jpg"
+            alt="Wish You Were Here"
+          />
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/album/0bCAjiUamIFqKJsekOYuRw?utm_source=generator"
+            width="100%"
+            height="152"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
+        <!-- Card 4 -->
+        <div class="album-card">
+          <img
+            src="./Images/The Division bell album cover.jpg"
+            alt="The Division Bell"
+          />
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/album/5F0IQXuHfTV7SBvZVnXERl?utm_source=generator"
+            width="100%"
+            height="152"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
+        <!-- Card 5 -->
+        <div class="album-card">
+          <img src="./Images/Atom Heart mother.jpg" alt="Atom Heart Mother" />
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/album/2cUpAOlQjV5uSjkWj5bEQY?utm_source=generator"
+            width="100%"
+            height="152"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
+        <!-- Card 6 -->
+        <div class="album-card">
+          <img src="./Images/Animals.jpg" alt="Animals" />
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/album/3b4E89rxzZQ9zkhgKpj8N4?utm_source=generator"
+            width="100%"
+            height="152"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
+
+        <div class="album-card">
+          <img src="./Images/Meddle album cover.jpg" alt="Animals" />
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/album/468ZwCchVtzEbt9BHmXopb?utm_source=generator"
+            width="100%"
+            height="152"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
+
+        <div class="album-card">
+          <img src="./Images/The final cut album cover.jpg" alt="Animals" />
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/album/1yMenUMOx7BpfTDuVQs99y?utm_source=generator"
+            width="100%"
+            height="152"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section" id="faqs">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-header">
+            <span>Where can I learn more about Pink Floyd's history?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-body">
+            <p>
+              Visit Pink Floyd's official website for a detailed band history:
+              <a
+                href="https://www.pinkfloyd.com/history/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Pink Floyd History</a
+              >.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <span>Where can I buy official Pink Floyd merchandise?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-body">
+            <p>
+              Check out their official store for albums, clothing, and
+              collectibles:
+              <a
+                href="https://shop.pinkfloyd.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Pink Floyd Official Shop</a
+              >.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <span>Where can I join Pink Floyd fan communities?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-body">
+            <p>
+              Connect with other fans on the official Pink Floyd Facebook and
+              Discord:
+              <a
+                href="https://www.facebook.com/pinkfloyd"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Facebook</a
+              >,
+              <a
+                href="https://discord.gg/pinkfloyd"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Discord</a
+              >.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <span>Where can I stream Pink Floyd's music?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-body">
+            <p>
+              Listen to Pink Floyd on Spotify, YouTube Music, and Apple Music:
+              <a
+                href="https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Spotify</a
+              >,
+              <a
+                href="https://music.youtube.com/channel/UCptTl78RuNYr1gY34SK61qA"
+                target="_blank"
+                rel="noopener noreferrer"
+                >YouTube Music</a
+              >,
+              <a
+                href="https://music.apple.com/us/artist/pink-floyd/487143"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Apple Music</a
+              >.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h4>Fan Club</h4>
+          <ul>
+            <li>
+              <a
+                href="https://discord.gg/pinkfloyd"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Join Our Discord</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/pinkfloyd/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Join Our Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Shop</h4>
+          <ul>
+            <li>
+              <a
+                href="https://shop.pinkfloyd.com/dept/music-cds-dvds-and-blu-ray?cp=84221_84327"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Albums</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://shop.pinkfloyd.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Merchandise</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.pinkfloyd.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Concert Tickets</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Reach Out</h4>
+          <ul>
+            <li>
+              <a href="mailto:webmaster@pinkfloyd.com"
+                >webmaster@pinkfloyd.com</a
+              >
+            </li>
+            <li>
+              <a href="mailto:support@pinkfloydfanclub.com"
+                >support@pinkfloydfanclub.com</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://forms.sonymusicfans.com/campaign/pinkfloyd-officialnewsletter/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Join Official News Letter</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2024 Pink Floyd Fan Club. All rights reserved. |
+          <a href="../Growth app/privacy-policy-template.pdf">Privacy Policy</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- <script src="JS/Scrit.js"></script> -->
+    <script src="JS/main.js"></script>
+  </body>
+</html>
